@@ -54,7 +54,6 @@
           "@explore/root-config": "//localhost:9000/explore-root-config.js",
           "@explore/admin": "//localhost:4200/main.js",
           "@explore/sales": "//localhost:4201/main.js",
-          "@explore/network": "//localhost:4202/main.js"
         }
       }
     </script>
@@ -96,9 +95,6 @@
             <a routerLink="/sales" href="/sales">
               Go to sales
             </a>
-            <a routerLink="/network" href="/network">
-              Go to network
-            </a>
           </div>
         </route>
         <route path="/admin">
@@ -106,9 +102,6 @@
         </route>
         <route path="/sales">
           <application name="@explore/sales"></application>
-        </route>
-        <route path="/network">
-          <application name="@explore/network"></application>
         </route>
       </main>
     </single-spa-router>
